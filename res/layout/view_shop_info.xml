@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_Gray_light"
+    android:orientation="vertical"
+    tools:context=".pages.ShoperInfoPage" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_White"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_tel_munber"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/tv_Gray_9"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_details_call"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/icon_call_tel" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_address"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/tv_Gray_9"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_map_address"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/shop_location"
+                android:textColor="@color/tv_Blue" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_shop_brief"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text=""
+            android:textColor="@color/tv_Gray_9"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/bg_Pink" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/bg_White" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_Gray_light"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_shop_int_period"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/shop_int_period"
+                android:textColor="@color/tv_Black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_shop_int_period_time"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textColor="@color/tv_Gray_9" />
+
+            <TextView
+                android:id="@+id/tv_shop_pay_attention"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/icon_pay_attention" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_shop_int_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@string/shop_int_status"
+                android:textColor="@color/tv_Black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_shop_int_status_on"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textColor="@color/tv_Pank" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/dashed"
+        android:layerType="software" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shang_rl_bg"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:background="@drawable/shang_banner_bg"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_shop_activity"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="商家活动"
+                android:textColor="@color/tv_Pank" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@color/bg_Gray_EEE" />
+
+            <TextView
+                android:id="@+id/tv_shop_show"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="商家展示"
+                android:textColor="@color/tv_Gray_9" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@color/bg_Gray_EEE" />
+
+            <TextView
+                android:id="@+id/tv_shop_comment"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="商家评论"
+                android:textColor="@color/tv_Gray_9" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_shop_stage"
+            android:layout_width="match_parent"
+            android:layout_height="279dp"
+            android:background="#eee" />
+    </LinearLayout>
+
+</LinearLayout>

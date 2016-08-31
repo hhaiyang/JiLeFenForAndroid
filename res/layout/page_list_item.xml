@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="85dp"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:background="@color/bg_White">
+	<LinearLayout 
+	    android:layout_height="match_parent"
+	    android:layout_width="0dp"
+	    android:layout_weight="1"
+	    android:orientation="vertical">			       
+		<RelativeLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:paddingLeft="5dp"
+		    android:paddingRight="5dp"
+		    android:paddingBottom="5dp">
+			<TextView
+			    android:id="@+id/tv_shop_name"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textColor="@color/tv_Black"
+				android:text="" />
+		
+			<TextView 
+			    android:id="@+id/tv_shop_integral"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentRight="true"
+				android:textColor="@color/tv_Black"
+				android:text=""/>
+		</RelativeLayout>
+		<TextView
+		    android:id="@+id/tv_shop_title"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1"
+			android:textColor="@color/tv_Gray"
+			android:gravity="center_vertical"
+			android:text="" />
+	</LinearLayout>
+	<ImageView 
+	    android:id="@+id/iv_shop_thumb"
+	    android:layout_width="65dp"
+	    android:layout_height="65dp"
+	    android:scaleType="centerCrop"
+	    android:src="@drawable/test"/>
+</LinearLayout>

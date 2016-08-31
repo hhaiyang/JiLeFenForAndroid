@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">优购淮北</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+	<!-- 版权 -->
+	<string name="copy_right">CopyRight © 优购淮北</string>
+	<string name="more_copyright">CopyRight © 2016 ugohb.com</string>	
+	<string name="more_copyright_p">All Right Reserved.</string>
+	<string name="more_corporation">淮北欢腾网络  版权所有</string>
+		<!-- error -->
+	<string name="when_error">呜呜呜~~出错鸟!</string>
+	<string name="error_reload">重新加载</string>
+	<!-- More -->
+	<string name="cname">ChannelName</string>
+	<string name="more">更多</string>
+	<string name="more_about">关于我们</string>
+	<string name="more_wechat">关注微信</string>
+	<string name="more_suggest">意见反馈</string>
+	<string name="more_update">检查更新</string>
+	<string name="more_soft_version">当前版本：v4.1</string>
+	<string name="more_integral">如何玩转积分</string>
+	<string name="more_guide">新手引导</string>
+	<string name="more_share">推荐给朋友</string>
+	<!-- Guide -->	
+	<string name="guide_start">开始体验</string>
+	<!-- USER -->
+	<string name="user">会员</string>
+	<string name="user_unlongin">你还未登录哦~</string>
+	<string name="user_login"> 登   录 </string>
+	<string name="user_banner">我的优购淮北</string>
+	<string name="user_tel">手机号</string>
+	<string name="user_password">密码</string>
+	<string name="user_memory">记住密码</string>
+	<string name="user_forget">忘记密码？</string>
+	<string name="user_relate">关联账号</string>
+	
+	<string name="user_go_login">立 即 登 录</string>
+	<string name="user_go_regist">快 速 注 册</string>
+	<string name="user_start_regist">开 始 注 册</string>
+	<string name="user_regist">注 册</string>
+	<string name="user_regist_tel">请输入您的手机号</string>
+	<string name="user_regist_idcode">请输入验证码</string>
+	<string name="user_regist_pwd">请输入您的密码</string>
+	<string name="user_regist_pwd_true">请再次确认密码</string>
+	<string name="user_regist_idcode_tv">获取验证码</string>
+	<string name="user_orgin_pwd">请输入原密码</string>
+	<string name="user_new_pwd">请输入新密码</string>
+	<string name="user_re_new_pwd">请确认新密码</string>
+	<string name="user_pwd_update"> 修 改 </string>
+	 
+	
+	<string name="user_predict">我的预定</string>
+	<string name="user_integral">我的积分</string>
+	<string name="user_integral_mun">可用积分:2899</string>
+	<string name="user_notice">我的关注</string>
+	<string name="user_msg">我的消息</string>
+	<string name="user_msg_mun">0条短消息提醒</string>
+	
+	<string name="user_other">其他</string>
+	<string name="user_contact">联系客服</string>
+	<string name="user_pwd">修改密码</string>
+	
+	<!-- search -->
+	<string name="search">搜索</string>
+	<string name="search_key">请输入商家、分类、地点等</string>
+	<string name="search_hot">最热搜索</string>
+	
+	<!-- integral -->
+	<string name="integral_search_key">搜索商品/店铺</string>	
+	<string name="integral_my_mun">我的积分:369</string>
+	<string name="integral_zui_first">最精彩</string>
+	<string name="integral_zui_second">最实惠</string>
+	<string name="integral_daily_suggest">天天推荐</string>
+	<string name="integral_all_shop">全部商家</string>
+	
+	<string name="integral_item_title">integral item title</string>
+	<string name="integral_item_brief">integral item brief</string>
+	<string name="integral_item_price">￥27</string>
+	<string name="integral_item_cost">2000积分</string>
+	<string name="integral_item_get">立即兑换</string>
+	
+	<!-- category -->
+	<string name="cate_search_key">搜索商品/分类</string>	
+	
+	
+	<!-- home menu -->
+	<string name="home_menu_integral">积分</string>	
+	<string name="home_menu_discount">打折</string>	
+	<string name="home_menu_market">商超</string>	
+	<string name="home_menu_cate">全部分类</string>	
+	
+	<!-- list-activity -->
+	<string name="title_key">打折</string>	
+	<string name="list_cate">栏目分类</string>	
+	<string name="list_area">全部商区</string>	
+	<string name="list_sort">默认排序</string>	
+	
+	<!-- shop-activity -->
+	<string name="shop_location">查看商家位置</string>	
+	<string name="shop_int_period">积分有效期：</string>
+	<string name="shop_int_status">积分状态：</string>	
+	
+ 	<string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    
+    
+<string name="my_jifen">我的积分</string> 
+<string name="input_jifen_number">请输入积分数额</string>
+<string name="input_jifen_code">请输入积分代码</string>
+<string name="submit">提 交</string>
+<string name="usable_cash_jifen">可用现金积分</string>
+<string name="usable_free_jifen">可用免费积分</string>
+<string name="jifen_explain">积分说明</string>
+<string name="query_sort">查询类别:</string>
+<string name="select_sort">请选择类别</string>
+<string name="between_datepicker">至</string>
+
+<string name="cash_exchange">现金兑换</string>
+<string name="usable_jifen">可用积分</string>
+<string name="usable_jifen_number">369</string>
+<string name="reset">年底清零</string>
+<string name="reset_number">0</string>
+<string name="jifen_cash">积分兑现</string>
+<string name="tv_money">金额</string>
+<string name="et_input_money">请输入兑换金额(须为整数)</string>
+<string name="tv_name">姓名</string>
+<string name="et_input_name">请输入银行卡持有人姓名</string>
+<string name="tv_iphone_number">手机</string>
+<string name="et_input_iphone_number">请输入手机号码</string>
+<string name="tv_card_number">卡号</string>
+<string name="et_input_card_number">请输入银行卡号</string>
+<string name="tv_bank">银行</string>
+<string name="tv_select_bank_sort">请选择银行卡开户类型</string>
+<string name="title_warm_reminder">温馨提示</string>
+<string name="reminder_back">返 回</string>
+<string name="reminder_next">下一步</string>
+<string name="title_check_info">请您仔细核对以下信息：</string>
+<string name="check_alter">修 改</string>
+<string name="check_submit">提 交</string>
+<string name="btn_ok">确 定</string>
+<string name="exchange_reorde">兑换记录</string>
+<string name="not_get">未领取</string>
+<string name="list_item_title">花生巧克力一杯</string>
+<string name="list_item_desc">花生、原味、草莓、香芋四种口味可供选择</string>
+<string name="list_item_date">2015年06月24日13:20兑换</string>
+<string name="money_number">23</string>
+<string name="jifen_number">1200积分</string>
+<string name="see_code">查看兑换码</string>
+<string name="tuiding">退 订</string>
+<string name="get_succeed">领取成功</string>
+<string name="see_code_dialog_title">卡旺卡奶茶</string>
+<string name="see_code_dialog_desc">花生奶一杯</string>
+<string name="see_code_dialog_exchange">兑换码:</string>
+<string name="see_code_dialog_exchange_number">23454657890</string>
+<string name="see_code_dialog_close">关  闭</string>
+<string name="tuiding_dialog_content">真的不要伦家么？</string>
+<string name="tuiding_dialog_btn_fangqi">忍痛放弃</string>
+<string name="tuiding_dialog_btn_zhenxi">继续珍惜</string>
+<string name="tuiding_succeed">退订成功！</string>
+<string name="wait">系统退还积分中，请稍等！</string>
+
+
+<string name="str_loading">加载中</string>
+
+</resources>

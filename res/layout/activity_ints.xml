@@ -1,0 +1,357 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".DuiActivity" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/tv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/back_narrow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="@string/cash_exchange"
+            android:textColor="@color/tv_Gray_9"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="83dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/bg_Gray_light"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/usable_jifen" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/usable_jifen_number"
+                android:textColor="@color/COLOR_RED"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="0.4dp"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/COLOR_UNDERLINE" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reset" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/reset_number"
+                android:textColor="@color/COLOR_RED"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/jifen_cash"
+        android:textColor="@android:color/black"
+        android:textSize="25sp" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/tv_money"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/et_input_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@null"
+                    android:hint="@string/et_input_money" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/money_underline"
+                android:layout_width="fill_parent"
+                android:layout_height="0.4dp"
+                android:background="@color/COLOR_UNDERLINE" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/tv_name"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/et_input_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@null"
+                    android:hint="@string/et_input_name" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/name_underline"
+                android:layout_width="fill_parent"
+                android:layout_height="0.4dp"
+                android:background="@color/COLOR_UNDERLINE" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/tv_iphone_number"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/et_input_iphone_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@null"
+                    android:hint="@string/et_input_iphone_number" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/iphone_number_underline"
+                android:layout_width="fill_parent"
+                android:layout_height="0.4dp"
+                android:background="@color/COLOR_UNDERLINE" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginLeft="20dp"
+                            android:text="@string/tv_card_number"
+                            android:textColor="@android:color/black"
+                            android:textSize="20dp" />
+
+                        <EditText
+                            android:id="@+id/et_input_card_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@null"
+                            android:hint="@string/et_input_card_number" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_scroll_select"
+                        android:visibility="gone"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <View
+                            android:layout_width="fill_parent"
+                            android:layout_height="0.4dp"
+                            android:background="@color/COLOR_UNDERLINE" />
+
+                        <com.ugohb.android.ui.WheelView
+                            android:id="@+id/wheelview"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content" >
+                        </com.ugohb.android.ui.WheelView>
+
+                        <View
+                            android:layout_width="fill_parent"
+                            android:layout_height="0.4dp"
+                            android:background="@color/COLOR_UNDERLINE" />
+
+                        <Button
+                            android:id="@+id/btn_ok"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginTop="10dp"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:background="@drawable/btn_submit_select"
+                            android:text="@string/btn_ok"
+                            android:textColor="@android:color/white"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/btn_cancel"
+                     android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="35dp"
+                    android:background="@null"
+                    android:src="@drawable/btn_scroll_select_cacel" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/card_number_underline"
+                android:layout_width="fill_parent"
+                android:layout_height="0.4dp"
+                android:background="@color/COLOR_UNDERLINE" />
+
+            <LinearLayout
+                android:id="@+id/ll_select_bank_sort"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/linelayout_select"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/tv_bank"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/tv_bank_sort"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="70dp"
+                    android:hint="@string/tv_select_bank_sort"
+                    android:textSize="17sp" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="13dp"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/select_bank_sort_narrow" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.4dp"
+                android:background="@color/COLOR_UNDERLINE" />
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:background="@drawable/btn_submit_select"
+                android:text="@string/submit"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

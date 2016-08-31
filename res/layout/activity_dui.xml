@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context=".DuiActivity" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/tv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:background="@null"
+            android:src="@drawable/back_narrow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/exchange_reorde"
+            android:textColor="@color/COLOR_GREY_LIGHT"
+            android:textSize="30sp" />
+    </RelativeLayout>
+    <ListView 
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:id="@+id/exchange_recorde_listview"
+        android:divider="@color/COLOR_DIVIDER"
+        android:dividerHeight="15dp"
+        ></ListView>
+
+</LinearLayout>

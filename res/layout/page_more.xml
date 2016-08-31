@@ -1,0 +1,156 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_Gray_light">
+<ScrollView
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+    android:padding="0sp"
+    android:scrollbars="none">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+	    <ImageView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="15dp"
+	        android:src="@drawable/logo"/>
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@color/bg_White"
+	        android:layout_marginTop="5dp"
+	        android:orientation="vertical">
+	        <View android:layout_width="match_parent"
+	            android:layout_height="0.5dp"
+	            android:background="@color/border_line"/>
+	        <TextView 
+	            android:id="@+id/tv_play_integral"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_margin="5dp"
+	            android:drawableRight="@drawable/arrow_right"
+	            android:text="@string/more_integral"
+	            android:textColor="@color/tv_Gray_9"
+	            android:textSize="16sp"
+	            android:gravity="center_vertical"/>
+	        <View android:layout_width="match_parent"
+	            android:layout_height="0.5dp"
+	            android:background="@color/border_line"/>
+	        <TextView 
+	            android:id="@+id/tv_follow_wechat"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_margin="5dp"
+	            android:drawableRight="@drawable/arrow_right"
+	            android:text="@string/more_wechat"
+	            android:textColor="@color/tv_Gray_9"
+	            android:textSize="16sp"
+	            android:gravity="center_vertical"/>
+	        <View android:layout_width="match_parent"
+	            android:layout_height="0.5dp"
+	            android:background="@color/border_line"/>
+	        <TextView 
+	            android:id="@+id/tv_ishare"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_margin="5dp"
+	            android:drawableRight="@drawable/arrow_right"
+	            android:text="@string/more_share"
+	            android:textColor="@color/tv_Gray_9"
+	            android:textSize="16sp"
+	            android:gravity="center_vertical"/>
+	        <View android:layout_width="match_parent"
+	            android:layout_height="0.5dp"
+	            android:background="@color/border_line"/>
+	    </LinearLayout>
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:layout_marginTop="15dp"
+	        android:background="@color/bg_White">
+	        <View android:layout_width="match_parent"
+	            android:layout_height="0.5dp"
+	            android:background="@color/border_line"/>
+	        <TextView
+	            android:id="@+id/tv_suggest_to" 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_margin="5dp"
+	            android:drawableRight="@drawable/arrow_right"
+	            android:text="@string/more_suggest"
+	            android:textColor="@color/tv_Gray_9"
+	            android:textSize="16sp"
+	            android:gravity="center_vertical"/>
+	        <View android:layout_width="match_parent"
+	            android:layout_height="0.5dp"
+	            android:background="@color/border_line"/>
+	        <LinearLayout
+	            android:id="@+id/ll_soft_update" 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:background="@color/bg_White">
+	            <TextView 
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:layout_height="wrap_content"
+		            android:layout_margin="5dp"
+		            android:text="@string/more_update"
+		            android:textColor="@color/tv_Gray_9"
+		            android:textSize="16sp"
+		            android:gravity="center_vertical"/>
+	            <TextView 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_margin="5dp"
+		            android:drawableRight="@drawable/arrow_right"
+		            android:text="@string/more_soft_version"
+		            android:textColor="@color/tv_Gray"
+		            android:textSize="14sp"
+		            android:gravity="center_vertical"/>
+	        </LinearLayout>
+	        <View android:layout_width="match_parent"
+	            android:layout_height="0.5dp"
+	            android:background="@color/border_line"/>
+	    </LinearLayout>
+	    <LinearLayout
+	        android:id="@+id/bottom_copyright"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="15dp"
+	        android:gravity="center"
+	        android:layout_marginTop="39dp"
+	        android:orientation="vertical" >
+	        <TextView 
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center"
+	            android:textColor="@color/tv_Gray"
+	            android:textSize="12sp"
+	            android:text="@string/more_corporation"/>
+	        <TextView 
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center"
+	            android:textColor="@color/tv_Gray"
+	            android:textSize="12sp"
+	            android:text="@string/more_copyright"/> 
+	        <TextView 
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center"
+	            android:textColor="@color/tv_Gray"
+	            android:textSize="12sp"
+	            android:text="@string/more_copyright_p"/>       
+	    </LinearLayout>
+	    
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

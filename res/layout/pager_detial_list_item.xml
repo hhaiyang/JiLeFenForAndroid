@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2015年07月05日10:05"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_below="@id/tv_date"
+        android:id="@+id/tv_name"
+        android:layout_alignLeft="@id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="红星美凯龙-美迪家具"
+        android:textSize="18sp" />
+    <TextView 
+        android:layout_marginLeft="50dp"
+        android:id="@+id/tv_jifen_number"
+        android:layout_alignBaseline="@id/tv_name"
+        android:layout_toRightOf="@id/tv_name"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="18sp" 
+        android:textColor="#f00"
+        android:text="+9500"
+        />
+	<View 
+	    android:layout_marginTop="5dp"
+	    android:layout_below="@id/tv_name"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:layout_height="3dp"
+	    android:layout_width="match_parent"
+	    android:background="@drawable/divideline"
+	    />
+</RelativeLayout>

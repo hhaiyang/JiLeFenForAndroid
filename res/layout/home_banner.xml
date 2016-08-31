@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_White" >
+    <!-- 频道banner -->
+<LinearLayout 
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:padding="10dp"
+	android:background="@color/bg_Gray_light"
+    >
+	<TextView
+	    android:id="@+id/tv_cname"
+		 android:layout_width="0dp"
+		 android:layout_height="wrap_content"
+		 android:layout_weight="1"
+		 android:text="@string/cname"
+		 android:textColor="@color/tv_Gray_9"
+		 android:textSize="18sp" />
+	<TextView
+	     android:id="@+id/tv_get_more"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:text="@string/more"
+		 android:gravity="center_vertical"
+		 android:drawableRight="@drawable/arrow_right"
+		 android:textColor="@color/tv_Gray_9"
+		 android:textSize="18sp" />
+</LinearLayout>
+<LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="150dp"
+       android:orientation="horizontal" >
+<FrameLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="0.6" 
+    android:padding="3dp">
+	<ImageView
+		android:id="@+id/home_list_first"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:scaleType="centerCrop"
+		android:src="@drawable/menu_1_0" />
+	<ImageView
+		android:id="@+id/home_list_first_int"
+		android:layout_width="49dp"
+		android:layout_height="37dp"
+		android:scaleType="fitXY"
+		android:src="@drawable/mark_int_10" />
+</FrameLayout>
+
+
+       <View
+           android:layout_width="0.5dp"
+           android:layout_height="match_parent"
+           android:background="@color/bg_Gray_light" />
+
+       <LinearLayout
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:orientation="vertical" >
+			<LinearLayout
+			   android:id="@+id/home_list_second"
+			   android:layout_width="match_parent"
+			   android:layout_height="0dp"
+			   android:layout_weight="1"
+			   android:orientation="horizontal" >
+			   
+			</LinearLayout>
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="0.5dp"
+               android:background="@color/bg_Gray_light" />
+
+           <LinearLayout
+			   android:id="@+id/home_list_third"
+               android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:layout_weight="1"
+               android:orientation="horizontal" >
+
+           </LinearLayout>
+       </LinearLayout>
+   </LinearLayout>
+
+</LinearLayout>

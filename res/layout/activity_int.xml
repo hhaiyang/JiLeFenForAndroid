@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".IntegralActivity" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/my_jifen"
+            android:textColor="@color/COLOR_RED"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/bt_rg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:background="@color/COLOR_GERY" >
+		<RelativeLayout
+			android:layout_width="0dip"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" 
+			android:gravity="center">
+			<ImageView
+		        android:id="@+id/iv_add_jifen"
+				android:layout_marginTop="5dip"
+				android:layout_width="65dip"
+				android:layout_height="65dip"
+				android:src="@drawable/add_jifen_normal" />
+		</RelativeLayout>
+		<RelativeLayout
+			android:layout_width="0dip"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" 
+			android:gravity="center">
+			<ImageView
+		        android:id="@+id/iv_detial_jifen"
+				android:layout_marginTop="5dip"
+				android:layout_width="65dip"
+				android:layout_height="65dip"
+				android:src="@drawable/detial_jifen_normal" />
+		</RelativeLayout>
+       
+    </LinearLayout>
+   <com.ugohb.android.view.NoScrollViewPager
+       android:id="@+id/viewpager"
+       android:layout_height="fill_parent"
+       android:layout_width="fill_parent"
+       />
+
+</LinearLayout>

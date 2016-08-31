@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="85dp"
+    android:orientation="horizontal"
+    
+    android:background="@color/bg_White">
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <LinearLayout 
+		    android:layout_height="match_parent"
+		    android:layout_width="0dp"
+		    android:layout_weight="1"
+		    android:orientation="vertical">
+			<TextView
+			    android:paddingLeft="3dp"
+			    android:paddingRight="3dp"
+			    android:paddingBottom="5dp"
+			    android:id="@+id/tv_hot_name"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textColor="@color/tv_Black"
+				android:text="" />
+			 <TextView
+			    android:id="@+id/tv_hot_title"
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="1"
+				android:textColor="@color/tv_Gray"
+				android:gravity="center_vertical"
+				android:text="" />
+		</LinearLayout>
+		<ImageView
+		    android:id="@+id/iv_hot_thumb"
+		    android:layout_width="65dp"
+		    android:layout_height="65dp"
+		    android:layout_gravity="center_vertical"
+		    android:scaleType="centerCrop"
+		    android:src="@drawable/test" />
+    </LinearLayout>
+<ImageView
+	android:id="@+id/home_hot_int"
+	android:layout_width="41dp"
+	android:layout_height="32dp"
+	android:layout_alignParentRight="true"
+	android:layout_marginRight="45dp"
+	android:layout_marginTop="-3dp"
+	android:scaleType="fitXY"
+	android:src="@drawable/mark_int_10" />  
+</RelativeLayout>   
+	
+
+
+
+</LinearLayout>

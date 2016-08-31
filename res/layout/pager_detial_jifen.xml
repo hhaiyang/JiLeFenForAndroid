@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/query_sort" />
+
+        <RelativeLayout 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            >
+        <EditText
+            android:editable="false"
+            android:gravity="center_vertical"
+            android:id="@+id/et_selector"
+            android:paddingLeft="10dp"
+            android:paddingRight="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textfield_default"
+            android:textSize="18sp"
+            android:hint="@string/select_sort" />
+        <ImageView 
+            android:id="@+id/iamgeview"
+            android:layout_marginLeft="120dp"
+            android:layout_centerVertical="true"
+            android:layout_height="25dp"
+            android:layout_width="25dp"
+            android:src="@drawable/downarrow"
+            />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout 
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        >
+        <DatePicker 
+            android:id="@+id/dp_start"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:calendarViewShown="false"
+            />
+        <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/between_datepicker"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            />
+         <DatePicker 
+             android:id="@+id/dp_end"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:calendarViewShown="false"
+            />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@android:color/transparent" >
+    </ListView>
+
+</LinearLayout>

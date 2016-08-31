@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/bg_Gray_light">
+	<LinearLayout 
+	    android:layout_marginTop="5dp"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:listSelector="@color/bg_White"
+		android:background="@color/bg_Gray_light"
+		android:orientation="horizontal">
+	    <LinearLayout
+	        android:id="@+id/menu_ll_integral"
+		    android:layout_width="0dp"
+		    android:layout_weight="1"
+		    android:layout_height="wrap_content"
+		    android:gravity="center"
+		    android:orientation="vertical">
+		    <ImageView
+		        android:layout_width="32dip"
+		        android:layout_height="36dip"
+		        android:src="@drawable/menu_integral" />
+		    <TextView
+		        android:textColor="#000000"
+		        android:textSize="14sp"
+		        android:text="@string/home_menu_integral"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content" />
+		</LinearLayout>
+		<LinearLayout
+	        android:id="@+id/menu_ll_discount"
+		    android:layout_width="0dp"
+		    android:layout_weight="1"
+		    android:layout_height="wrap_content"
+		    android:gravity="center"
+		    android:orientation="vertical">
+		    <ImageView
+		        android:layout_width="32dip"
+		        android:layout_height="36dip"
+		        android:src="@drawable/menu_zhe" />
+		    <TextView
+		        android:textColor="#000000"
+		        android:textSize="14sp"
+		        android:text="@string/home_menu_discount"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content" />
+		</LinearLayout>
+		<LinearLayout
+	        android:id="@+id/menu_ll_market"
+		    android:layout_width="0dp"
+		    android:layout_weight="1"
+		    android:layout_height="wrap_content"
+		    android:gravity="center"
+		    android:orientation="vertical">
+		    <ImageView
+		        android:layout_width="32dip"
+		        android:layout_height="36dip"
+		        android:src="@drawable/menu_market" />
+		    <TextView
+		        android:textColor="#000000"
+		        android:textSize="14sp"
+		        android:text="@string/home_menu_market"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content" />
+		</LinearLayout>
+		<LinearLayout
+	        android:id="@+id/menu_ll_cate"
+		    android:layout_width="0dp"
+		    android:layout_weight="1"
+		    android:layout_height="wrap_content"
+		    android:gravity="center"
+		    android:orientation="vertical">
+		    <ImageView
+		        android:layout_width="32dip"
+		        android:layout_height="36dip"
+		        android:src="@drawable/menu_cate" />
+		    <TextView
+		        android:textColor="#000000"
+		        android:textSize="14sp"
+		        android:text="@string/home_menu_cate"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content" />
+		</LinearLayout>
+	</LinearLayout>
+	<View
+		android:layout_marginTop="5dp"
+		android:layout_width="match_parent"
+		android:layout_height="2dp"
+		android:background="@color/bg_Pink" />
+</LinearLayout>

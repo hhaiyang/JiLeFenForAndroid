@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="COLOR_GREY_LIGHT">#626262</color>
+    <color name="COLOR_GREY">#9a9a9a</color>
+    <color name="COLOR_UNDERLINE">#22000000</color>
+    <color name="COLOR_RED_DARK">#ff6665</color>
+    <color name="COLOR_DIVIDER">#ececec</color>
+    <color name="COLOR_GREEN">#00b2ae</color>
+        <!-- 框选项背景 -->
+    <color name="frame_item_normal">#FFF</color>
+    <color name="frame_item_focused">#dadee6</color>
+    <color name="frame_item_pressed">#dadee6</color>
+    <color name="frame_item_disabled">#FFF</color>
+    <!-- 内容文字的主颜色 -->
+    <color name="content">#222222</color>
+    <!-- 白色 -->
+    <color name="tv_White">#FFFFFF</color>
+    <!-- 黑色 -->
+    <color name="tv_Black">#000000</color>
+    <color name="tv_Black_light">#555</color>
+    <!-- 红色 -->
+    <color name="tv_Red">#CC0000</color>
+    <color name="tv_Pank">#E8304C</color>
+    <!-- 灰色 -->
+    <color name="tv_Gray">#CCCCCC</color>
+    <color name="tv_Gray_9">#99000000</color>
+    
+    <color name="tv_Green_Deep">#00B09C</color>
+    <color name="tv_Blue">#4289CD</color>
+    
+    <color name="border_line">#e0e0e0</color>
+    
+    <!-- 白色 -->
+    <color name="bg_White">#FFFFFF</color>
+    <!-- 黑色 -->
+    <color name="bg_Black">#000000</color>
+    <!-- 黑色-半透明 -->
+    <color name="bg_Black_Tran">#77000000</color>
+    <!-- 灰色 -->
+    <color name="bg_Gray">#CCCCCC</color>
+    <!-- 灰色 -->
+    <color name="bg_Gray_EEE">#E5E5E5</color>
+    <!-- 粉红 -->
+    <color name="bg_Pink">#EB98B5</color>
+    <!-- 红 -->
+    <color name="bg_Red">#E53550</color>
+
+    <!-- 浅灰色 -->
+    <color name="bg_Gray_light">#F3F3F3</color>
+    
+    <color name="trans">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+    
+    
+    <item name="green" type="color">#FF3BBD79</item>
+    <color name="font_black_content">#222222</color>
+    
+    <color name="COLOR_RED">#e22744</color>
+    <color name="COLOR_GERY">#f5f4f3</color>
+    <color name="COLOR_GERY_LIGHT">#e7e7e7</color>
+    <color name="COLOR_BTN_PRESS">#ff6665</color>
+    <color name="COLOR_BTN_NORMAL">#ff0000</color>
+</resources>
